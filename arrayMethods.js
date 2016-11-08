@@ -29,3 +29,10 @@ genericNumberArray.push(6, 7, 8, 9, 10);
 
 console.log(genericNumberArray);
 
+// .pop()
+
+var colors = ['Blue', 'Red', 'Yellow', 'Charlie'];
+var popResult = colors.pop();
+
+console.log(colors);
+console.log(popResult);
