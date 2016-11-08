@@ -48,3 +48,10 @@ var phoneNumber = [9, 0, 3, 5, 7, 6, 8];
 phoneNumber.reverse();
 
 console.log(phoneNumber);
+
+// .shift()
+
+var orderQueue = [{ takeOut: 'Ice Cream' }, { takeOut: 'Medium Salad'}, { takeOut: 'Burger'}];
+var nextOrder = orderQueue.shift();
+
+console.log(nextOrder);
