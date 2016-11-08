@@ -68,3 +68,15 @@ mixedWords.sort();
 
 console.log(mixedWords);
 
+// .splice()
+
+var fruitCollection = ['Apple', 'Scissors', 'Pug', 'Lady Bug', 'Banana', 'Pear'];
+var notFruit = fruitCollection.splice(-5, 3 );
+
+console.log(fruitCollection);
+console.log(notFruit);
+
+var gemBox = ['Ruby', 'Diamond', 'Diamond', 'Emerald', 'Moonstone', 'Pizza', 'Sneaker', 'Sapphire', 'Baby', 'Jeans', 'Soda Can', 'Boat'];
+gemBox.splice(5, 8, "Sapphire");
+
+console.log(gemBox);
