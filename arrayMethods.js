@@ -36,3 +36,15 @@ var popResult = colors.pop();
 
 console.log(colors);
 console.log(popResult);
+
+// .reverse()
+
+var scrambledWords = ['win', 'the', 'for', 'burritos'];
+scrambledWords.reverse();
+
+console.log(scrambledWords);
+
+var phoneNumber = [9, 0, 3, 5, 7, 6, 8];
+phoneNumber.reverse();
+
+console.log(phoneNumber);
