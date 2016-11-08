@@ -55,3 +55,16 @@ var orderQueue = [{ takeOut: 'Ice Cream' }, { takeOut: 'Medium Salad'}, { takeOu
 var nextOrder = orderQueue.shift();
 
 console.log(nextOrder);
+
+// .sort
+
+var mixedNums = [5, 81, 40, 4, 805, 10, 76, 21, 3, 2, 7, 1, 7];
+mixedNums.sort();
+
+console.log(mixedNums);
+
+var mixedWords = ['Dont', 'You', 'Forget', 'About', 'Me'];
+mixedWords.sort();
+
+console.log(mixedWords);
+
