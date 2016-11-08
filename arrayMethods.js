@@ -88,3 +88,15 @@ upToTen.splice(0,2);
 upToTen.unshift(1,2, 3, 4, 5, 6, 7, 8);
 
 console.log(upToTen);
+
+//.concat()
+var brown1 = ['brown'];
+var brown2 = ['brown'];
+var brown3 = ['brown'];
+var brown4 = ['brown'];
+var brown5 = ['brown'];
+
+var brownOnly = brown1.concat(brown2, brown3, brown4, brown4);
+
+console.log(brownOnly);
+
