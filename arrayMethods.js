@@ -80,3 +80,11 @@ var gemBox = ['Ruby', 'Diamond', 'Diamond', 'Emerald', 'Moonstone', 'Pizza', 'Sn
 gemBox.splice(5, 8, "Sapphire");
 
 console.log(gemBox);
+
+//inserting elements .unshift()
+
+var upToTen = [1, 2, 9, 10];
+upToTen.splice(0,2);
+upToTen.unshift(1,2, 3, 4, 5, 6, 7, 8);
+
+console.log(upToTen);
