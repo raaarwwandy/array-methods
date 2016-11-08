@@ -100,3 +100,15 @@ var brownOnly = brown1.concat(brown2, brown3, brown4, brown4);
 
 console.log(brownOnly);
 
+
+//.unshift 
+
+var orderedValues = [4, 5, 6, 7, 8, 9, 10];
+orderedValues.unshift(1,2, 3);
+
+console.log(orderedValues);
+
+var orderedValuesNewLength = orderedValues.length;
+console.log(orderedValuesNewLength);
+
+
