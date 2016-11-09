@@ -111,4 +111,16 @@ console.log(orderedValues);
 var orderedValuesNewLength = orderedValues.length;
 console.log(orderedValuesNewLength);
 
+//concat
+
+var randomThingsArray=genericNumberArray.concat(colors);
+
+console.log(randomThingsArray);
+
+// var orderQueue = [{ takeOut: 'Ice Cream' }, { takeOut: 'Medium Salad'}, { takeOut: 'Burger'}];
+
+var customOrder = [ {takeOut: "Pop Corn"}, {takeOut: "Chips"}];
+var updatedOrders = customOrder.concat(orderQueue);
+console.log(updatedOrders);
+
 
