@@ -123,4 +123,11 @@ var customOrder = [ {takeOut: "Pop Corn"}, {takeOut: "Chips"}];
 var updatedOrders = customOrder.concat(orderQueue);
 console.log(updatedOrders);
 
+// join()
+
+var sentence = scrambledWords.join(" ");
+console.log(sentence);
+
+var myFruits = fruitCollection.join( " + " );
+console.log(myFruits);
 
