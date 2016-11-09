@@ -140,4 +140,26 @@ console.log(favoriteFriends);
 var owesMoney = friends.slice(3,6);
 console.log(owesMoney);
 
+// toString
+var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
+var monthNameString = monthNames.toString( ",");
+
+console.log(monthNameString);
+
+//indexOf
+
+var favoriteColor = colors.indexOf( 'Red');
+console.log(favoriteColor);
+
+var favoriteEvenNumber = mixedNums.indexOf(76);
+console.log(favoriteEvenNumber);
+
+
+//lastIndex
+
+var lastNine = bulkNumbers.lastIndexOf(9);
+console.log(lastNine);
+
+var lastFive = bulkNumbers.lastIndexOf(5);
+console.log(lastFive);
 
